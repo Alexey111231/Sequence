@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vk.sladkiipirojok.Controller">
+    <children>
+        <TextArea fx:id="sequenceField" layoutX="15.0" layoutY="14.0" onTextChange="#changedText" prefHeight="243.0" prefWidth="570.0" />
+        <Label fx:id="A" layoutX="24.0" layoutY="267.0" prefHeight="48.0" prefWidth="106.0" text="A: 0 (0.00%)" />
+        <Label fx:id="G" layoutX="24.0" layoutY="325.0" prefHeight="48.0" prefWidth="106.0" text="G: 0 (0.00%)" />
+        <Label fx:id="UT" layoutX="194.0" layoutY="325.0" prefHeight="48.0" prefWidth="106.0" text="U: 0 (0.00%)" />
+        <Label fx:id="C" layoutX="194.0" layoutY="267.0" prefHeight="48.0" prefWidth="106.0" text="C: 0 (0.00%)" />
+        <Label fx:id="clearButton" alignment="CENTER" contentDisplay="CENTER" layoutX="390.0" layoutY="325.0" onMouseClicked="#clickClearScreen" prefHeight="48.0" prefWidth="116.0" style="-fx-background-color: #FFE173; -fx-background-radius: 20;" text="Clear screen" textAlignment="CENTER" />
+        <CheckBox fx:id="isDNKBox" layoutX="390.0" layoutY="291.0" mnemonicParsing="false" onMouseClicked="#isDNKStateChanged" text="isDNK" />
+    </children>
+</AnchorPane>
